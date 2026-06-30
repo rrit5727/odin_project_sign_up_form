@@ -1,0 +1,35 @@
+
+body {
+
+  /* .overall-container {
+
+
+  } */
+
+    .image-containers {
+      display: flex;
+      position: relative;
+
+      .background-image {
+        width: 100%;
+      }
+
+      .odin-logo-container {
+        position: absolute;
+        background: black;
+        opacity: 45%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 120px;
+        top: 150px;
+        
+        .odin-logo {
+ 
+        }
+        
+      }
+
+    }
+
+}
