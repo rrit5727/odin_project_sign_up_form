@@ -1,21 +1,114 @@
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0px;
+  height: 100%;
 
   .overall-container {
     display: flex;
+    height: 100%;
 
     .form-section-container {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: strong;
 
+      .form-section-text-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 0px 10px;
+        background-color: #fafafa;
+
+      }
+
+      .form-container {
+        padding: 10px;
+        
+        .form-section-form {
+
+          .form-legend {
+            font-size: 25px;
+            padding-left: 50px;
+
+          }
+
+          .form-control-container {
+            display: flex;
+            flex-direction: column;
+            
+            padding: 10px;
+            
+            .form-row {
+              border: none;
+              display: flex;
+              flex-direction: row;
+              justify-content: space-between;
+              padding: 0px 40px;
+
+              div {
+                display: flex;
+                flex-direction: column;
+
+                label {
+                  margin-top: 5px;
+                }
+
+                input {
+                  width: 240px;
+                }
+
+              }
+
+            }
+
+            .button-container {
+              padding: 20px 40px;
+              display: flex;
+
+              button {
+                height: 30px;
+                width: 120px;
+  
+              }
+
+            }
+
+
+          }
+        }
+      }
+
+      .footer {
+        padding: 0px 10px;
+      }
+
+      .form-container {
+        flex: 1;
+      }
+
+      .footer {
+        flex: 1;
+        background-color: #fafafa;
+      }
 
     }
 
     .image-containers {
       display: flex;
       position: relative;
+      flex: 1;
   
       .background-image {
         width: 100%;
+        object-fit: cover;
       }
   
       .odin-logo-container {
