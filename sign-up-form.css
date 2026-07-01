@@ -1,7 +1,14 @@
 
 body {
+  margin: 0px;
 
   .overall-container {
+    display: flex;
+
+    .form-section-container {
+
+
+    }
 
     .image-containers {
       display: flex;
