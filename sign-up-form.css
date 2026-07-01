@@ -1,19 +1,16 @@
 
 body {
 
-  /* .overall-container {
-
-
-  } */
+  .overall-container {
 
     .image-containers {
       display: flex;
       position: relative;
-
+  
       .background-image {
         width: 100%;
       }
-
+  
       .odin-logo-container {
         position: absolute;
         background: black;
@@ -25,11 +22,14 @@ body {
         top: 150px;
         
         .odin-logo {
- 
+  
         }
         
       }
-
+  
     }
+
+  }
+
 
 }
